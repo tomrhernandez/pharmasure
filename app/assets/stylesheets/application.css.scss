@@ -44,6 +44,12 @@ body {
     background: none;
     padding-left: 0px !important;
 }
+
+.main-callout>p {
+    max-width: 620px !important;
+    line-height: 25px;
+}
+
 .site-image>img {
     margin: auto;
     display: block;
