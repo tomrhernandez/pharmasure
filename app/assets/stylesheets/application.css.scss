@@ -14,5 +14,39 @@
  *= require_self
  */
 
- @import "bootstrap-sprockets";
- @import "bootstrap";
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+// brand blue #264585
+// brand red  #bc372e
+// purple     #643B79
+// gray       #8A8A8A
+// light grey #efefef
+
+$primary : #efefef;
+
+.main {
+    margin-top: 75px;
+}
+
+.navbar {
+    //background: #efefef;
+    //height: 60px;
+}
+
+.navbar-brand > img {
+    height: 80px;
+}
+
+.navigation .navbar-brand {
+  height: 80px;
+}
+
+.navigation .nav >li >a {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.navigation .navbar-toggle {
+  padding: 10px;
+  margin: 25px 15px 25px 0;
+}
